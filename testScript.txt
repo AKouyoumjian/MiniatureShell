@@ -1,0 +1,13 @@
+echo starting script
+echo printing working directory twice using prev
+pwd
+prev
+echo Now going to examples directory!
+cd examples
+pwd
+echo listing contents and permissions:
+ls -la
+cd ../
+echo now go back to where we started
+pwd
+echo script complete!
